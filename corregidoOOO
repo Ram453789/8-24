@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+	
+	int a=5;
+	int b=6;
+	float pot;
+	int mod;
+	
+	pot=pow(a,b);
+	printf("Mostrar potencias %.0f\n",  pot);
+	
+	mod=a%b;
+	printf("Mostrar modulo %d\n",mod);
+	
+	return 0;
+}
